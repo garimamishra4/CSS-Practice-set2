@@ -1,0 +1,43 @@
+/* Colors */
+body {
+  background-color: hsl(0, 0%, 96%);
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  margin: 20px;
+}
+
+.header {
+  color: #2c3e50;
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.transparent-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+}
+
+/* Units */
+.box {
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 30px;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 5px;
+}
